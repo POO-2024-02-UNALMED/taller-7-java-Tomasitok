@@ -21,15 +21,7 @@ public class Tesis extends Escrito {
     }
 
     public String interpretacion(){
-        return this.getOrigen() + "\n" + 
-				this.getTitulo() + "\n" + 
-				this.getAutor() + "\n" + 
-				this.getPaginas() + "\n" + 
-				this.idea + "\n" + 
-				Tesis.argumentos.length + "\n" + 
-				this.conclusion + "\n" +
-                this.referencias + "\n" +
-                this.interpretacion;
+        return this.interpretacion;
     }
 
     public String toString(){

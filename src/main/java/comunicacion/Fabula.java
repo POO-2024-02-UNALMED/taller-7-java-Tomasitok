@@ -18,12 +18,7 @@ public class Fabula extends Escrito {
 
     @Override
     public String interpretacion(){
-        return this.getOrigen() + "\n" + 
-				this.getTitulo() + "\n" + 
-				this.getAutor() + "\n" + 
-				this.getPaginas() + "\n" + 
-				this.ensenanzas + "\n" + 
-                this.interpretacion;
+        return this.interpretacion;
     }
 
     @Override

@@ -17,13 +17,7 @@ public class Periodico extends Escrito{
     }
 
     public String interpretacion(){
-        return this.getOrigen() + "\n" + 
-				this.getTitulo() + "\n" + 
-				this.getAutor() + "\n" + 
-				this.getPaginas() + "\n" + 
-				this.fecha + "\n" + 
-				this.primicia + "\n" + 
-                this.interpretacion;
+        return this.interpretacion;
     }
 
     public String toString(){
